@@ -2,5 +2,4 @@
 
 
 def uniq_add(my_list=[]):
-
-return sum({elem for elem in my_list if isinstance(elem, int)})
+return (sum(set(my_list)))
