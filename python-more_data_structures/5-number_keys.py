@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Defines a function that returns the number of keys in a dictionary."""
 
 def number_keys(my_dict):
