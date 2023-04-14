@@ -1,1 +1,1 @@
-Pyhton inheritance main
+Pyhton Inheritance
