@@ -1,16 +1,19 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
+"""
+A module to prints a list in ascending order
 """
 
 
 class MyList(list):
     """
-     class MyList that inherits from list
+    A class to customize the list class
     """
+
     def print_sorted(self):
         """
-        Public instance method that prints sorted list
+        Prints a list in ascending order
+        Sort a list and then prints on the output
         """
-        list_copy = self[:]
-        list_copy.sort()
-        print(list_copy)
+
+        if issubclass(MyList, list):
+            print(sorted(self))
