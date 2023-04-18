@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-# 1-number_of_lines.py
-"""Defines a text file line-counting function."""
+# -*- coding: utf-8 -*-
+"""
 
 
 def number_of_lines(filename=""):
-    """Return the number of lines in a text file."""
-    lines = 0
-    with open(filename) as f:
-        for line in f:
-            lines += 1
-    return 
+    """
+    Counts the number of lines from the filename
+    Arguments:
+        filename (str): The name of the file to count in
+    """
+    with open(filename, encoding='utf-8') as file:
+        lines = file.readlines()
+    return len(lines)
