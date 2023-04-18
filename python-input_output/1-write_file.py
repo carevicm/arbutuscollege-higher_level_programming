@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 3-write_file.py
-# Brennan D Baraban <375@holbertonschool.com>
 """Defines a file-writing function."""
 
 
