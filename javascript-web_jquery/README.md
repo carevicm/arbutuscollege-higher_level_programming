@@ -1,6 +1,14 @@
 JavaScript Web Jquery
 
 
+Project badge
+100%
+JavaScript - Web jQuery
+ Master
+ By: Guillaume, CTO at Holberton School
+ Weight: 1
+
+
 Resources
 Read or watch:
 
@@ -86,10 +94,10 @@ GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 0-script.js
 Please review your task manually with the following checklist
-File exists
+<header> color is updated
 
- 
-0/7 pts
+  
+7/7 pts
 1. With JQuery
 mandatory
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
@@ -122,9 +130,10 @@ GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 1-script.js
 Please review your task manually with the following checklist
-File exists
+<header> color is updated to red
 
-0/7 pts
+ 
+7/7 pts
 2. Click and turn red
 mandatory
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000) when the user clicks on the tag DIV#red_header:
@@ -158,9 +167,10 @@ GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 2-script.js
 Please review your task manually with the following checklist
-File exists
+<header> tag is updated when click on DIV#red_header
 
-0/9 pts
+ 
+9/9 pts
 3. Add `.red` class
 mandatory
 Write a JavaScript script that adds the class red to the <header> element when the user clicks on the tag DIV#red_header
@@ -199,9 +209,10 @@ GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 3-script.js
 Please review your task manually with the following checklist
-File exists
+HEADER tag has the class red when the user clicks on DIV#red_header
 
-0/9 pts
+ 
+9/9 pts
 4. Toggle classes
 mandatory
 Write a JavaScript script that toggles the class of the <header> element when the user clicks on the tag DIV#toggle_header:
@@ -245,9 +256,10 @@ GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 4-script.js
 Please review your task manually with the following checklist
-File exists
+When the user clicks on DIV#toggle_header, the class of HEADER toggles between red and green
 
-0/7 pts
+ 
+7/7 pts
 5. List of elements
 mandatory
 Write a JavaScript script that adds a <li> element to a list when the user clicks on the tag DIV#add_item:
@@ -288,9 +300,10 @@ GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 5-script.js
 Please review your task manually with the following checklist
-File exists
+The new element is exactly <LI>Item</LI>
 
-0/9 pts
+ 
+9/9 pts
 6. Change the text
 mandatory
 Write a JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header
@@ -325,4 +338,125 @@ Repo:
 GitHub repository: arbutuscollege-higher_level_programming
 Directory: javascript-web_jquery
 File: 6-script.js
+Please review your task manually with the following checklist
+The new text of HEADER is exactly “New Header!!!”
+
  
+9/9 pts
+7. Star wars character
+mandatory
+Write a JavaScript script that fetches the character name from this URL: https://swapi-api.hbtn.io/api/people/5/?format=json
+
+The name must be displayed in the HTML tag DIV#character
+You can’t use document.querySelector to select the HTML tag
+You must use the JQuery API
+Please test with this HTML file in your browser:
+
+guillaume@ubuntu:~/$ cat 7-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      Star Wars character
+    </header>
+    <br />
+    <div id="character"></div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="7-script.js"></script>
+  </body>
+</html>
+guillaume@ubuntu:~/$ 
+Repo:
+
+GitHub repository: arbutuscollege-higher_level_programming
+Directory: javascript-web_jquery
+File: 7-script.js
+Please review your task manually with the following checklist
+The character name is assigned to the element DIV#character (after the request)
+
+ 
+9/9 pts
+8. Star Wars movies
+mandatory
+Write a JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.hbtn.io/api/films/?format=json
+
+All movie titles must be list in the HTML tag UL#list_movies
+You can’t use document.querySelector to select the HTML tag
+You must use the JQuery API
+Please test with this HTML file in your browser:
+
+guillaume@ubuntu:~/$ cat 8-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header> 
+      Star Wars movies
+    </header>
+    <br />
+    <ul id="list_movies">
+    </ul>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="8-script.js"></script>
+  </body>
+</html>
+guillaume@ubuntu:~/$ 
+Repo:
+
+GitHub repository: arbutuscollege-higher_level_programming
+Directory: javascript-web_jquery
+File: 8-script.js
+Please review your task manually with the following checklist
+Each movie title is displayed in a LI element
+
+ 
+9/9 pts
+9. Say Hello!
+mandatory
+Write a JavaScript script that fetches from https://hellosalut.stefanbohacek.dev/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.
+
+The translation of “hello” must be displayed in the HTML tag DIV#hello
+You can’t use document.querySelector to select the HTML tag
+You must use the JQuery API
+Your script must work when it is imported from the <head> tag
+Please test with this HTML file in your browser:
+
+guillaume@ubuntu:~/$ cat 9-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="9-script.js"></script>
+  </head>
+  <body>
+    <header> 
+      Say Hello!
+    </header>
+    <br />
+    <div id="hello"></div>
+    <br />
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+guillaume@ubuntu:~/$ 
+Repo:
+
+GitHub repository: arbutuscollege-higher_level_programming
+Directory: javascript-web_jquery
+File: 9-script.js
